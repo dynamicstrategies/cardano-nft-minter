@@ -165,4 +165,5 @@ cardano-cli transaction submit --tx-file matx.signed --testnet-magic 1097911063
 If you get `Transaction successfully submitted.` then it means that everything worked as planned
 
 ### Check that you NFT has been minted
-Search for your address at `pool.pm`
+If you minted on the mainnet then search for your address at `pool.pm`
+If you minted on the testnet then search for the policyId at `https://testnet.adatools.io/nft`
